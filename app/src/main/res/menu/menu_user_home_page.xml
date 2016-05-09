@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UserHomePageActivity">
+    <item
+        android:id="@+id/updateStatus"
+        android:orderInCategory="100"
+        android:title="@string/Update"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/logoutUser"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
